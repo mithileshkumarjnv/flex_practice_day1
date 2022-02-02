@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    .flex-container {
+      display: flex;
+      flex-direction: row;
+      background-color: yellow;
+      height: 600px;
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+
+    }
+
+    .containerone {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(235, 235, 217);
+      flex-grow: 1;
+      justify-content: center;
+      text-align: center;
+
+    }
+
+    .containertwo {
+      display: flex;
+      flex-direction: column;
+      background-color: rgb(235, 235, 217);
+      flex-grow: 2;
+
+
+
+    }
+
+    .containerthree {
+      display: flex;
+      flex-direction: row;
+      flex-grow: 1;
+      justify-content: center;
+      text-align: center;
+
+    }
+
+
+    .containerfour {
+      background-color: palegreen;
+      flex-grow: 2;
+
+      text-align: center;
+      text-justify: center;
+    }
+
+    .containerone>div {
+      text-align: center;
+      flex-grow: 1;
+
+      justify-content: center;
+      text-align: center;
+    }
+
+    .itema {
+      background-color: green;
+
+
+    }
+
+    .iteme {
+      background-color: magenta;
+    }
+
+    .itemf {
+      background-color: blue;
+    }
+
+
+    .containerfive {
+      background-color: peru;
+      flex-grow: 1;
+
+    }
+
+    .itemd {
+      background-color: purple;
+      flex-grow: 1;
+
+    }
+  </style>
+</head>
+
+<body>
+  <div class="flex-container">
+    <div class="containerone">
+      <div class="itema"></div>
+      <div class="iteme"></div>
+      <div class="itemf"></div>
+
+    </div>
+    <div class="containertwo">
+      <div class="containerthree">
+        <div class="containerfive"></div>
+        <div class="itemd"></div>
+      </div>
+      <div class="containerfour"></div>
+    </div>
+
+
+
+  </div>
+
+
+
+</body>
+
+</html>
